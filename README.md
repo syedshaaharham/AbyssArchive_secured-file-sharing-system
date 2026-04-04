@@ -2,7 +2,7 @@
 
 > A production-ready, multi-tier AWS VPC infrastructure built with Terraform — designed with security, modularity, and scalability in mind.
 
-![Architecture](Secure_Vpc_Architecture.png)
+![Architecture](https://raw.githubusercontent.com/syedshaaharham/aws-secure-vpc-terraform/main/Secure_Vpc_Architecture.png)
 
 ---
 
