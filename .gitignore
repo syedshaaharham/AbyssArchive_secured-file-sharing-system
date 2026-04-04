@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars.backup
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive files
+*.tfvars   # Uncomment this only if your tfvars contain secrets
+
+# OS & Editor files
+.DS_Store
+.vscode/
+*.log

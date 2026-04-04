@@ -1,0 +1,6 @@
+variable "project_name" {}
+variable "environment" {}
+variable "vpc_cidr" {}
+variable "public_subnet_cidrs" { type = list(string) }
+variable "private_subnet_cidrs" { type = list(string) }
+variable "db_subnet_cidrs" { type = list(string) }

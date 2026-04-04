@@ -1,0 +1,23 @@
+output "vpc_id" {
+  value = module.vpc.vpc_id
+}
+
+output "public_subnets" {
+  value = module.vpc.public_subnet_ids
+}
+
+output "private_subnets" {
+  value = module.vpc.private_subnet_ids
+}
+
+output "database_subnets" {
+  value = module.vpc.db_subnet_ids
+}
+
+output "s3_logs_bucket" {
+  value = module.logging.s3_logs_bucket
+}
+
+output "cloudwatch_log_group" {
+  value = module.logging.cloudwatch_log_group
+}
